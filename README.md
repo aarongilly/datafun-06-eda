@@ -1,5 +1,8 @@
 # datafun-06-eda
 
+author: Aaron Gillespie
+date: 2025-02-16 and thereabouts
+
 ## Purpose
 
 This repository is being created in service of Northwest Missouri State University 44608 Module 6 - Exploratory Data Analysis. It will accomplish the following objectives from the module:
@@ -49,4 +52,4 @@ seaborn
 Directories & key files.
 
 - `source_data/` - holds sanitized versions of my actual data journal dataset(s)
-- `gillespie_eda.ipynb` - required Jupyter notebook iteracting with the data
+- `gillespie_eda.ipynb` - required Jupyter notebook interacting with the data
