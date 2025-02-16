@@ -13,13 +13,15 @@ And, in my case, will include one additional objective:
 
 For more on my Data Journal, read [this page on my personal site](https://aarongilly.com/Pages/Data-Journal).
 
-## Getting Started
+## Development Log
 
-This section walks through the process I took to create this repo and how you could play with it as well.
+This section walks through the process I took to create this repo.
 
-- Clone this repository
-- Navigate a terminal to the repository root directory
-- Create a virtual environment, activate it, and install dependencies via these commands:
+- Created a new repository directly in [GitHub](https://github.com/)
+  - Included a `README.md`, a `.gitignore` for Python, and an MIT License
+- Opened VS Code and utilized its GUI to clone my newly created repository to my computer
+- Navigated a terminal to the repository root directory
+- Created a virtual environment, activated it, and installed dependencies via these commands:
 
 ```shell
 python3 -m venv .venv  
@@ -27,6 +29,20 @@ source .venv/bin/activate
 python3 -m pip install --upgrade pip  
 python3 -m pip install --upgrade -r requirements.txt
 ```
+
+- Added my own `requirements.txt` including:
+
+```plaintext
+jupyterlab
+pandas
+pyarrow
+matplotlib
+seaborn
+```
+
+- Created a Jupyter notebook `gillespie_eda.ipynb` and added its first cell, a Markdown cell explaining what all this is.
+- Created a directory for holding my source data, aptly titled `source_data`
+- Next up: Open my personal Data Journal and ask myself a bunch of existential questions about personal transparency and what I did or did not want to share. I mung my quantified self data and create several sanitized derivative datasets, to add to `source_data` directory.
 
 ## Organization
 
