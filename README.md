@@ -16,6 +16,8 @@ And, in my case, will include one additional objective:
 
 For more on my Data Journal, read [this page on my personal site](https://aarongilly.com/Pages/Data-Journal).
 
+![Data Journal Image](data_journal_image.png)
+
 ## Development Log
 
 This section walks through the process I took to create this repo.
@@ -74,3 +76,11 @@ I'm using sanitized versions of my personal Data Journal. The majority of its fu
     - Date - when the workout occurred
     - Workout Type - one of "Strength", "Cardio", "Mobility", or "Unknown"
     - Workout Name - short name or description, e.g. "Jogged"
+
+# Spoilers
+
+Here are some fun charts & whatnot to catch your eye:
+
+![exercise over time](exercise_over_time.png)
+
+![histogram](histogram.png)
